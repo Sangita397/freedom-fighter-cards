@@ -1,0 +1,26 @@
+.user-container{
+    background-color: beige;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 15px;
+    border-radius: 10px;
+}
+
+#user-name{
+    color: black;
+    
+}
+#user-img{
+    height: 40vh;
+    width: 40vh;
+    border-radius: 50%;
+}
+
+#user-description{
+    color: black;
+    height: fit-content;
+    font-size: small;
+}
